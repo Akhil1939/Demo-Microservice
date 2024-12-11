@@ -13,7 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IStore.Services.CouponAPI", "IStore.Services.CouponAPI\IStore.Services.CouponAPI.csproj", "{8C32735C-9063-4D1A-BC9F-61B8D79C7825}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IStore.WEB", "IStore.WEB\IStore.WEB.csproj", "{33F20957-7646-4DFE-9A72-555B81F2F484}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IStore.WEB", "IStore.WEB\IStore.WEB.csproj", "{33F20957-7646-4DFE-9A72-555B81F2F484}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IStore.Services.AuthApi", "IStore.Services.AuthApi\IStore.Services.AuthApi.csproj", "{43152427-5E24-41DF-B4F1-4F266FAE1DB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{33F20957-7646-4DFE-9A72-555B81F2F484}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33F20957-7646-4DFE-9A72-555B81F2F484}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33F20957-7646-4DFE-9A72-555B81F2F484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43152427-5E24-41DF-B4F1-4F266FAE1DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43152427-5E24-41DF-B4F1-4F266FAE1DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43152427-5E24-41DF-B4F1-4F266FAE1DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43152427-5E24-41DF-B4F1-4F266FAE1DB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8C32735C-9063-4D1A-BC9F-61B8D79C7825} = {C2AEBDF2-1A5F-45BF-977E-6395351181CC}
 		{33F20957-7646-4DFE-9A72-555B81F2F484} = {FE8D1B77-A5F8-4CC8-BAFB-2A0DD32B413F}
+		{43152427-5E24-41DF-B4F1-4F266FAE1DB2} = {C2AEBDF2-1A5F-45BF-977E-6395351181CC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8DAE81FD-5494-4084-9E84-36F49CA89F05}
