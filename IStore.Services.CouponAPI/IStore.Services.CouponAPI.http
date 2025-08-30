@@ -1,6 +1,0 @@
-@IStore.Services.CouponAPI_HostAddress = http://localhost:5125
-
-GET {{IStore.Services.CouponAPI_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
